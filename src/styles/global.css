@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CORES */
+:root {
+  --bg-color: #0f172a;
+  --text-color: #e5e7eb;
+  --muted-text: #94a3b8;
+  --accent-color: #38bdf8;
+}
+
+/* BASE */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* LAYOUT */
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* HEADER */
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: var(--muted-text);
+}
+
+/* SECTIONS */
+section {
+  margin-top: 60px;
+}
+
+section h2 {
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+/* PROJETOS */
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project {
+  background-color: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+}
+
+.project p {
+  color: var(--muted-text);
+}
+
+/* BOTÕES */
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  color: var(--text-color);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: var(--accent-color);
+  color: #000;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: var(--muted-text);
+  margin-top: 40px;
+}
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  color: white;
+}

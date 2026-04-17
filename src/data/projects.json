@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Finance Dashboard",
+    "description": "Modern financial dashboard with multilingual support, interactive charts and responsive design.",
+    "technologies": ["React", "JavaScript", "CSS", "Recharts"],
+    "status": "Completed",
+    "demo": "https://william-finance-dashboard02.netlify.app",
+    "github": "https://github.com/williamcipriano-dev/finance-dashboard"
+  },
+  {
+    "title": "Python Automation",
+    "description": "Script project focused on automating repetitive tasks and improving workflow efficiency.",
+    "technologies": ["Python"],
+    "status": "Planned"
+  }
+]
