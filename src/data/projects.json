@@ -7,10 +7,11 @@
     "demo": "https://william-finance-dashboard02.netlify.app",
     "github": "https://github.com/williamcipriano-dev/finance-dashboard"
   },
-  {
-    "title": "Python Automation",
-    "description": "Script project focused on automating repetitive tasks and improving workflow efficiency.",
-    "technologies": ["Python"],
-    "status": "Planned"
-  }
+ {
+  "title": "Email Automation System",
+  "description": "Backend automation system developed in Python for automatic email sending via SMTP, inbox reading via IMAP, intelligent categorization, logging and attachment download.",
+  "technologies": ["Python", "SMTP", "IMAP"],
+  "status": "Completed",
+  "github": "https://github.com/williamcipriano-dev/email-automation-system"
+}
 ]
